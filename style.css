@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3px;
+  background: #f8f5f5;
+}
+.container .card {
+  margin: 3px;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  overflow: hidden;
+  text-align: center;
+}
+.card__backgroud {
+  overflow: hidden;
+}
+.card__img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.card__title {
+  position: relative;
+  width: fit-content;
+  color: white;
+  bottom: 40px;
+  left: 20px;
+  text-align: left;
+  font-size: 10px;
+}
+.card__title--showplace {
+  font-size: 14px;
+  height: 8px;
+}
+.card__city {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 12px;
+  background-color: #b10606;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  display: block;
+}
+
+.btn__video--play {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.btn__option--open {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  right: -260px;
+  top: 130;
+}
+
+/*# sourceMappingURL=style.css.map */

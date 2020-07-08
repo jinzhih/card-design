@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+    background:rgb(248, 245, 245);
+    .card{
+        margin: 3px;
+    }
+  
+  
+}

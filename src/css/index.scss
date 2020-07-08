@@ -1,0 +1,10 @@
+// Import variabels first
+@import "./utils/variables.scss";
+@import "./utils/mixin.scss";
+
+@import "./layout/container.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./component/card.scss";
+@import "./component/button.scss";
+@import "./component/image.scss";
